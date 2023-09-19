@@ -4,13 +4,12 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/1e-2/FFup)
-![Last Commit](https://img.shields.io/github/last-commit/1e-2/FFup)
-![Open Issues](https://img.shields.io/github/issues-raw/1e-2/FFup)
-![Closed Issues](https://img.shields.io/github/issues-closed-raw/1e-2/FFup)
-![Pull Requests](https://img.shields.io/github/issues-pr/1e-2/FFup)
-![Stars](https://img.shields.io/github/stars/1e-2/FFup)
 ![Coffee Level](https://img.shields.io/badge/Coffee%20Level-110%25-brown)
 ![Stress Level](https://img.shields.io/badge/Stress%20Level-Endurable-green)
+![License](https://img.shields.io/github/license/1e-2/FFup)
+![Forks](https://img.shields.io/github/forks/1e-2/FFup?style=social)
+![Followers](https://img.shields.io/github/followers/1e-2?label=Follow&style=social)
+
 
 🚫 **Tired of breaking your UI due to an inc ompatible extension?**
 🔍 **Seeking an efficient way to keep your WebUI1111 Extensions & ComfyUI Nodes updated with last min gits?** 🔄
@@ -24,12 +23,18 @@ FFup is an unofficial simple batch updater crafted to handle easaly the last wor
 2. 🛡 **Safety First**: Updates can sometimes cause hiccups. With FFup's recovery snapshots, you can easily roll back to a stable state in seconds.
 3. 💼 **Developer-Friendly**: Designed for development environments, FFup ensures you're always equipped with the latest tools without the risk of breaking your setup.
 
+
 **Note**: Before updating, ensure the UI isn't actively using the folders. This guarantees a seamless git pull for each repository.
 
-![Screenshot_301](https://github.com/1e-2/FFup/assets/50985923/81ae5e15-d09c-438c-913f-b0874e4a82f1)
+![Screenshot_301](https://github.com/1e-2/FFup/assets/50985923/40643270-d172-441e-b3f6-e23809a870f3)
 
 
 ## Overview
+![ComfyUI](https://img.shields.io/badge/Supports-ComfyUI-green)
+![AUTOMATIC1111](https://img.shields.io/badge/Supports-AUTOMATIC1111-green)
+![Recovery Snapshots](https://img.shields.io/badge/Feature-Recovery%20Snapshots-blue)
+![Quick Update](https://img.shields.io/badge/Mode-Quick%20Update-yellow)
+![Cross-Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20macOS-lightgrey)
 
 `FFup` is a Python tool crafted for batch updating the extensions for AUTOMATIC1111 WebUI and the custom nodes for ComfyUI. But that's not all; it offers a safety net allowing you to easily revert to previous versions in case the new updates break your GUI. 
 
@@ -141,8 +146,8 @@ For those moments when you're contemplating your next move or want to bow out gr
 
 - Opt for `0` - and you'll be ushered back to the previous menu.
 - Choose `00` - and FFup will take a bow, exiting the stage (application).
-- 
-![Screenshot_300](https://github.com/1e-2/FFup/assets/50985923/1b60b5f0-7177-4329-890c-4eba2972f203)
+  
+![Screenshot_300](https://github.com/1e-2/FFup/assets/50985923/b4ab1680-15ad-47e5-b24c-9bc56dcb93d3)
 
 ## ⚠️ Quick Update Mode: For Developers
 
@@ -167,8 +172,8 @@ Navigate to the desired directory and run:
 ```bash
 FFup --fast
 ```
-![Screenshot_294](https://github.com/1e-2/FFup/assets/50985923/61fdce09-d7aa-4619-9246-db5d786e88c7)
-![Screenshot_302](https://github.com/1e-2/FFup/assets/50985923/5f9405a9-4e66-47ef-9fb5-3914af374320)
+![Screenshot_302](https://github.com/1e-2/FFup/assets/50985923/22c2477d-d645-40b1-ae18-3ad6ed223946)
+![Screenshot_294](https://github.com/1e-2/FFup/assets/50985923/94201290-0d75-4dc8-8b55-596490848d7a)
 
 ⚠️ **Caution**: The quick scripts bypass the recovery snapshot creation. They're designed for swift 0-day updates in development environments where backups aren't crucial.
 
@@ -228,3 +233,7 @@ The **FFusion.ai** project is proudly maintained by **Source Code Bulgaria Ltd**
 📩 [![Email](https://img.shields.io/badge/Email-enquiries%40ffusion.ai-blue?style=for-the-badge&logo=gmail)](mailto:enquiries@ffusion.ai)
 
 🌍 Sofia Istanbul London
+
+![ffusionai-logo](https://github.com/1e-2/FFup/assets/50985923/58886947-704e-4391-8f0d-2c5d742beb0f)
+
+
